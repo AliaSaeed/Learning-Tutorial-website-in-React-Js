@@ -1,0 +1,25 @@
+/* Navbar.css */
+.navbar {
+
+    background-color:rgb(247, 239, 232) !important; 
+ 
+    padding-top: 1px; /* adjust top padding */
+    padding-bottom: .5px; /* adjust bottom padding */
+    z-index: 100;
+    position: relative;
+   
+    
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+   
+    color: #ff1500; /* default link color */
+    text-decoration: none; /* remove default underline */
+   
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: blue; /* hover link color */
+    text-decoration: underline; /* underline on hover */
+  }
+  

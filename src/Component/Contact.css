@@ -1,0 +1,40 @@
+/* Styles for About Us heading */
+.about-us-heading {
+    text-align: center;
+    color: orange;
+   font-weight: 200px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-shadow: white;
+    padding: .1rem .5rem;
+    border-radius: 1.5rem;
+}
+/* About.css */
+/* About page in index style */
+.heading1{
+    text-align: center;
+    padding: .5rem 0;
+  }
+  .heading h1{
+   font-size: 2rem;
+   text-transform: uppercase;
+   color: var(--white);
+   text-shadow: white;
+  }
+  /* background image in home page style */
+  .heading1{
+   
+   background-size: cover !important;
+   background-position: center !important;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: white;
+     /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+  }
